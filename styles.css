@@ -1,6 +1,129 @@
 * {
   box-sizing: border-box;
+  margin: auto 20px;
+  font-family: Basic Sans;
 }
+
+/*typography*/
+
+h1 {
+  font-family: Basic Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  padding: 40px;
+  letter-spacing: 0.3em;
+  text-transform: capitalize;
+
+  color: #4542AE;
+}
+
+h2 {
+  font-family: Basic Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 43px;
+  text-align: right;
+}
+
+/*Navigation**********************************/
+
+header {
+  background-color: white;
+  overflow: hidden;
+}
+
+header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a:hover {
+  color: #4542AE;
+}
+
+
+.inline-block{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  margin-left: auto;
+  height: auto;
+}
+
+nav {
+  width: 50%;
+  float: right;
+  padding: 10px;
+  padding-top: 70px;
+}
+
+ul {
+  float: right;
+  list-style: none;
+}
+
+
+/*hero*/
+
+.hero {
+  border: 3px solid blue;
+  padding: 20px 40px 40px;
+  display: inline-block;
+  align-items: baseline;
+}
+
+.heroImg {
+  float: left;
+  vertical-align: middle
+  ;
+}
+
+.heroContent {
+display: inline;
+margin: 50px;
+}
+
+/*cant move button*/
+
+button.buttonStyle {
+  background-color:white;
+  border-color: #000000;
+  color: black;
+  font-family: Basic Sans;
+  font-size: 18px;
+  float: right;
+  filter: drop-shadow(4px 5px 0px #000000);
+
+  width: 220px;
+  height: 57px;
+  left: 1019px;
+  top: 809px; 
+  
+  
+}
+
+
+
+
+/* media */
+
+@media screen and (max-width: 600px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
 /*
 body {
