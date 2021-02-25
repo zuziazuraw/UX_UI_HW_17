@@ -1,16 +1,32 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 body {
     margin: 5px 10px 0px 10px;
     padding: 0;
   }
 
-/*NAVIGATION*/
-
-header{
-
-  
-}
   .logo {
     float: left;
     width:135px;
@@ -93,7 +109,7 @@ header{
     float: right;
   }
 
-  /*TYPOGRAPHY*/
+  
 
 
   h1 {
@@ -114,7 +130,7 @@ header{
 
 }
 
-  /*HERO*/
+  
 
   .hey{
     display: inline-block;
@@ -157,7 +173,7 @@ aside {
 }
 
 
-/*BUTTON*/
+
 
 
 .button {
@@ -196,7 +212,7 @@ aside {
 button:focus{
   background-color:#635fd1;}
 
-  /*FOOTER*/
+
 
 
   footer {
@@ -231,3 +247,5 @@ height: 80px;
   @media screen and (min-width: 601px) {
     div.hey {
       font-size: 80px;
+
+  */
